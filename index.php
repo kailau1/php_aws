@@ -23,7 +23,7 @@
   $query = $conn->query($sql);
   while($result = $query -> fetch_array(MYSQLI_ASSOC))
   {
-	  $file_name = $result['ISBN'] . ".png";
+	  $file_name = $result['ISBN'] . ".jpg";
 	  $isbn = "ISBN: " . $result['ISBN'];
 	  $title = "Title: " . $result['Title'];
 	  $auth = "Author: " . $result['Author'];
